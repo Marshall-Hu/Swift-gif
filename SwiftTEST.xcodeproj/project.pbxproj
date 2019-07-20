@@ -12,6 +12,9 @@
 		003637AB22E1951000BE6514 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 003637A922E1951000BE6514 /* Main.storyboard */; };
 		003637AD22E1951100BE6514 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 003637AC22E1951100BE6514 /* Assets.xcassets */; };
 		003637B022E1951100BE6514 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 003637AE22E1951100BE6514 /* LaunchScreen.storyboard */; };
+		003637BC22E1A9BB00BE6514 /* iOSDevCenters+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003637BB22E1A9BB00BE6514 /* iOSDevCenters+GIF.swift */; };
+		003637BF22E1AAF000BE6514 /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 003637B722E1A8E900BE6514 /* loading.gif */; };
+		003637C022E1AAF000BE6514 /* loading2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 003637B822E1A8E900BE6514 /* loading2.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		003637AC22E1951100BE6514 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		003637AF22E1951100BE6514 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		003637B122E1951100BE6514 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		003637B722E1A8E900BE6514 /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
+		003637B822E1A8E900BE6514 /* loading2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading2.gif; sourceTree = "<group>"; };
+		003637BB22E1A9BB00BE6514 /* iOSDevCenters+GIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "iOSDevCenters+GIF.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +44,8 @@
 		0036379922E1951000BE6514 = {
 			isa = PBXGroup;
 			children = (
+				003637B722E1A8E900BE6514 /* loading.gif */,
+				003637B822E1A8E900BE6514 /* loading2.gif */,
 				003637A422E1951000BE6514 /* SwiftTEST */,
 				003637A322E1951000BE6514 /* Products */,
 			);
@@ -60,6 +68,7 @@
 				003637AC22E1951100BE6514 /* Assets.xcassets */,
 				003637AE22E1951100BE6514 /* LaunchScreen.storyboard */,
 				003637B122E1951100BE6514 /* Info.plist */,
+				003637BB22E1A9BB00BE6514 /* iOSDevCenters+GIF.swift */,
 			);
 			path = SwiftTEST;
 			sourceTree = "<group>";
@@ -122,6 +131,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				003637BF22E1AAF000BE6514 /* loading.gif in Resources */,
+				003637C022E1AAF000BE6514 /* loading2.gif in Resources */,
 				003637B022E1951100BE6514 /* LaunchScreen.storyboard in Resources */,
 				003637AD22E1951100BE6514 /* Assets.xcassets in Resources */,
 				003637AB22E1951000BE6514 /* Main.storyboard in Resources */,
@@ -136,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				003637A822E1951000BE6514 /* ViewController.swift in Sources */,
+				003637BC22E1A9BB00BE6514 /* iOSDevCenters+GIF.swift in Sources */,
 				003637A622E1951000BE6514 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
